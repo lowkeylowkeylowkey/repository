@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <title>Realtime Image Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=qQZiPzORkY07uOc0tKLJTIb1bGjf9v9bsQ7TOG2th31aYrlt58fPojkCw8u7y4XZW_-yTcvu2ptFE7usXSW0hCnp2QBnKM-xsEBlrk8pPSY" charset="UTF-8"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body background="background.png">
+  <center>
+    <h3 class="btn btn-info heading">Realtime image identification
+      <hr>
+      <center>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+          Model is trained on
+          <br>
+          <div class="btn btn-warning heading_2">
+          Mom | Dad | Brother | Sister 
+          </div>
+        </div>
+      </center>
+    </h3>
+    <br>
+    <br>
+
+    <p class="btn btn-warning result_para_tag">Object :
+      <span id="result_object_name"></span>
+    </p>
+
+    <p class="btn btn-warning result_para_tag">Accuracy :
+      <span id="result_object_accuracy"></span>
+    </p>
+  </center>
+  <div class="copy_right_footer">
+    Developed by monke
+  </div>
+
+
+<script src="main.js"></script>
+
+
